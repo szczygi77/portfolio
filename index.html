@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>MICHAŁ SZCZYGIEŁ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Strona Portfolio Michała Szczygła" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
+    <meta name="author" content="lmpixels" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/silvertheme.css" type="text/css">
+    
+    <style>
+      /* Custom styling for section animations */
+      .animated-section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+      }
+      
+      .animated-section.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      
+      /* Active menu styling */
+      .site-main-menu li.active a {
+        color: #04b4e0;
+      }
+    </style>
+
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+
+  <body class="page">
+
+    <div class="lm-animated-bg"></div>
+    
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <!-- Scroll To Top Button -->
+    <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
+    <!-- /Scroll To Top Button -->
+
+    <div class="page-scroll">
+      <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
+
+        <!-- Header -->
+        <header id="site_header" class="header">
+          <div class="header-content clearfix">
+                
+            <!-- Text Logo -->
+            <div class="text-logo">
+              <a href="index.html">
+                <div class="logo-text">MICHAŁ <span>SZCZYGIEŁ</span></div>
+              </a>
+            </div>
+            <!-- /Text Logo -->
+
+            <!-- Navigation -->
+            <div class="site-nav mobile-menu-hide">
+              <ul class="leven-classic-menu site-main-menu">
+                <li class="menu-item">
+                  <a href="#about">O mnie</a>
+                </li>
+
+                <li class="menu-item">
+                  <a href="#experience">Doświadczenie</a>
+                </li>
+
+                <li class="menu-item">
+                  <a href="#contact">Kontakt</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <a class="menu-toggle mobile-visible">
+              <i class="fa fa-bars"></i>
+            </a>
+            <!-- Mobile Menu Toggle -->
+          </div>
+        </header>
+        <!-- /Header -->
+
+        <div id="main" class="site-main">
+          <div id="main-content" class="single-page-content">
+            <div id="primary" class="content-area">    
+              <div id="content" class="page-content site-content single-post" role="main">
+                <!-- Home Page Top Part -->
+                <div id="about" class="row">
+                  <div class=" col-xs-12 col-sm-12">
+                    <div class="home-content">
+                      <div class="row flex-v-align">
+                        
+                        <div class="col-sm-12 col-md-5 col-lg-5">
+                          <div class="home-photo">
+                            <div class="hp-inner" style="background-image: url(img/profile.jpg);">
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-7 col-lg-7">
+                          <div class="home-text hp-left">
+                            <div class="static-title">
+                              <h4 style="color: #a8a9ad; font-weight: 600; margin-bottom: 15px;">Innowator</h4>
+                            </div>
+
+                              
+                            <h1>Michał Szczygieł</h1>
+                            <p>Jestem młodym, dynamicznym innowatorem, który łączy umiejętności biznesowe z głęboką wiedzą techniczną w obszarach informatyki i sztucznej inteligencji. Moja kariera zaczęła się już w szkole średniej, gdzie brałem udział w prestiżowych hackathonach, rozwijając projekty technologiczne, które zdobywały uznanie.</p>
+                            
+                            <p>Moje podejście do zarządzania projektami opiera się na jasnym definiowaniu celów, efektywnej organizacji pracy oraz monitorowaniu postępów. Korzystam z metodyki iteracyjnej, co pozwala mi na bieżąco testować i udoskonalać swoje rozwiązania, unikając większych problemów na późniejszych etapach.</p>
+                            
+                            <p>Potrafię krytycznie ocenić pomysły, analizując je z różnych perspektyw – technicznej, finansowej i użytkowej. Moja zdolność do zadawania trafnych pytań i dostrzegania potencjalnych zagrożeń pomaga w podejmowaniu świadomych decyzji projektowych.</p>
+                                 
+                            <div class="home-buttons">
+                              <a href="#contact" target="_self" class="btn btn-primary">Kontakt</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Home Page Top Part -->
+
+                <!-- Services -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="p-50"></div>
+
+                    <div class="block-title">
+                      <h2>Czym się zajmuję</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="info-list-w-icon">
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-pen"></i>
+                        </div>
+      
+                        <div class="ci-text">
+                          <h4>Programista i Innowator</h4>
+                          <p>Jestem współtwórcą innowacyjnych projektów takich jak inteligentne okulary samochodowe, CyberOpiekun – aplikacja wspierająca bezpieczeństwo seniorów w sieci oraz SecureScan – narzędzie do bezpiecznego skanowania kodów QR. Moje projekty skupiają się na praktycznym rozwiązywaniu problemów związanych z cyberbezpieczeństwem, oferując proste, ale skuteczne narzędzia.</p>
+                        </div>
+                      </div>
+    
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-display"></i>
+                        </div>
+     
+                        <div class="ci-text">
+                          <h4>Cyberbezpieczeństwo</h4>
+                          <p>Dzięki praktycznej wiedzy z zakresu bezpieczeństwa sieciowego, m.in. analizy ruchu sieciowego, skanowania portów i ochrony przed ransomware, tworzę aplikacje, które realnie wspierają użytkowników w ochronie ich systemów. Moje rozwiązania działają na platformie Windows i łączą intuicyjny interfejs z zaawansowanymi funkcjami.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="info-list-w-icon">
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-shop"></i>
+                        </div>
+
+                        <div class="ci-text">
+                          <h4>Kontakty i rozwój</h4>
+                          <p>Uczestnictwo w hackathonach i znajomość sztucznej inteligencji pozwoliły mi zdobyć umiejętności prowadzenia rozmów na biznesowym poziomie. Miałem okazję nawiązywać kontakty z globalnymi markami, takimi jak Porsche, prezentując swoje pomysły technologiczne i ucząc się skutecznej komunikacji.</p>
+                        </div>
+                      </div>
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-megaphone"></i>
+                        </div>
+
+                        <div class="ci-text">
+                          <h4>Sztuczna Inteligencja</h4>
+                          <p>W moich projektach często wykorzystuję sztuczną inteligencję, zwłaszcza w analizie zagrożeń i automatyzacji procesów bezpieczeństwa. Skupiam się na tym, aby SI wspierała użytkowników w praktyczny sposób, a nie była jedynie technologicznym dodatkiem.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Services -->
+
+
+
+                <!-- Experience Section -->
+                <div id="experience" class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="p-40"></div>
+                    <div class="block-title">
+                      <h2>Doświadczenie</h2>
+                    </div>
+                    
+                    <div class="timeline timeline-second-style clearfix">
+                      <div class="timeline-item clearfix">
+                        <div class="left-part">
+                          <h5 class="item-period">2024</h5>
+                          <span class="item-company">AviaTech</span>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="right-part">
+                          <h4 class="item-title">Uczestnik hackathonu AviaTech</h4>
+                          <p>Współtworzyłem projekt SmartFly podczas prestiżowego hackathonu AviaTech w 2024 roku. Projekt skupiał się na innowacyjnych rozwiązaniach dla branży lotniczej, łącząc zaawansowane technologie z praktycznymi zastosowaniami dla poprawy doświadczeń pasażerów i zwiększenia efektywności procesów lotniskowych.</p>
+                        </div>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <div class="left-part">
+                          <h5 class="item-period">2024 - 2025</h5>
+                          <span class="item-company">Akademia Protolab</span>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="right-part">
+                          <h4 class="item-title">Laureat Akademii Protolab</h4>
+                          <p>Uczestnictwo w prestiżowym programie innowacji, w ramach którego stworzyłem projekt inteligentnych okularów samochodowych monitorujących poziom stresu i zmęczenia kierowcy. Technologia wykorzystuje zaawansowane czujniki i algorytmy sztucznej inteligencji do analizy stanu psychofizycznego kierowcy w czasie rzeczywistym.</p>
+                        </div>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <div class="left-part">
+                          <h5 class="item-period">2025</h5>
+                          <span class="item-company">CyberOpiekun</span>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="right-part">
+                          <h4 class="item-title">Twórca CyberOpiekun - Laureat HackCarpatia 2025</h4>
+                          <p>Zaprojektowanie i wdrożenie aplikacji wspierającej seniorów przed zagrożeniami w sieci, która zdobyła nagrodę główną na hackathonie HackCarpatia 2025. Projekt skupia się na edukacji użytkowników, wykrywaniu prób phishingu i oferowaniu mechanizmów ochronnych dostosowanych do potrzeb osób starszych.</p>
+                        </div>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <div class="left-part">
+                          <h5 class="item-period">2025</h5>
+                          <span class="item-company">Złota Apka</span>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="right-part">
+                          <h4 class="item-title">Laureat konkursu Złota Apka 2025</h4>
+                          <p>Stworzyłem aplikację SecureScan, narzędzie edukacyjne w zakresie cyberbezpieczeństwa, specjalizujące się w bezpiecznym skanowaniu kodów QR. Aplikacja uczy użytkowników jak rozpoznawać potencjalne zagrożenia związane z kodami QR oraz jak bezpiecznie z nich korzystać, zmniejszając ryzyko phishingu i innych zagrożeń.</p>
+                        </div>
+                      </div>
+
+                    </div>
+                    
+                    <div class="p-40"></div>
+                    
+                    <!-- Skills -->
+                    <div class="block-title">
+                      <h2>Umiejętności</h2>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <div class="block-title">
+                          <h3>Kluczowe umiejętności</h3>
+                        </div>
+                        <div class="skills-info">
+                          <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                              <div class="lm-info-block gray-default" style="height: 220px; margin-bottom: 20px; background-color: rgba(40, 40, 40, 0.9); border-top: 2px solid #a8a9ad;">
+                                <i class="fas fa-tasks" style="font-size: 28px; color: #a8a9ad; margin-bottom: 15px;"></i>
+                                <h4 style="font-size: 16px;">Zarządzanie Projektami</h4>
+                                <div style="padding: 0 10px;">
+                                  <p style="font-size: 14px; line-height: 1.5;">Skuteczne zarządzanie projektami technologicznymi, od planowania po realizację, z metodami iteracyjnymi.</p>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                              <div class="lm-info-block gray-default" style="height: 220px; margin-bottom: 20px; background-color: rgba(40, 40, 40, 0.9); border-top: 2px solid #a8a9ad;">
+                                <i class="fas fa-chart-line" style="font-size: 28px; color: #a8a9ad; margin-bottom: 15px;"></i>
+                                <h4 style="font-size: 16px;">Analiza Biznesowa</h4>
+                                <div style="padding: 0 10px;">
+                                  <p style="font-size: 14px; line-height: 1.5;">Tworzenie modeli biznesowych, analiza rynkowa i opracowanie strategii komercjalizacji produktów.</p>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                              <div class="lm-info-block gray-default" style="height: 220px; margin-bottom: 20px; background-color: rgba(40, 40, 40, 0.9); border-top: 2px solid #a8a9ad;">
+                                <i class="fas fa-handshake" style="font-size: 28px; color: #a8a9ad; margin-bottom: 15px;"></i>
+                                <h4 style="font-size: 16px;">Relacje Biznesowe</h4>
+                                <div style="padding: 0 10px;">
+                                  <p style="font-size: 14px; line-height: 1.5;">Pozyskiwanie kontaktów biznesowych, negocjowanie z partnerami i budowanie trwałych relacji.</p>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                              <div class="lm-info-block gray-default" style="height: 220px; margin-bottom: 20px; background-color: rgba(40, 40, 40, 0.9); border-top: 2px solid #a8a9ad;">
+                                <i class="fas fa-shield-alt" style="font-size: 28px; color: #a8a9ad; margin-bottom: 15px;"></i>
+                                <h4 style="font-size: 16px;">Cyberbezpieczeństwo</h4>
+                                <div style="padding: 0 10px;">
+                                  <p style="font-size: 14px; line-height: 1.5;">Ochrona sieci, analiza ruchu sieciowego oraz zaawansowane skanowanie podatności systemów.</p>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                              <div class="lm-info-block gray-default" style="height: 220px; margin-bottom: 20px; background-color: rgba(40, 40, 40, 0.9); border-top: 2px solid #a8a9ad;">
+                                <i class="fas fa-robot" style="font-size: 28px; color: #a8a9ad; margin-bottom: 15px;"></i>
+                                <h4 style="font-size: 16px;">Sztuczna Inteligencja</h4>
+                                <div style="padding: 0 10px;">
+                                  <p style="font-size: 14px; line-height: 1.5;">Automatyzacja procesów i analiza zagrożeń z wykorzystaniem zaawansowanych technik sztucznej inteligencji.</p>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                              <div class="lm-info-block gray-default" style="height: 220px; margin-bottom: 20px; background-color: rgba(40, 40, 40, 0.9); border-top: 2px solid #a8a9ad;">
+                                <i class="fas fa-comments" style="font-size: 28px; color: #a8a9ad; margin-bottom: 15px;"></i>
+                                <h4 style="font-size: 16px;">Komunikacja</h4>
+                                <div style="padding: 0 10px;">
+                                  <p style="font-size: 14px; line-height: 1.5;">Skuteczna komunikacja w zespole oraz efektywna organizacja pracy grupowej.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="p-40"></div>
+                  </div>
+                </div>
+
+
+
+                <!-- Contact Section -->
+                <div id="contact" class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="block-title">
+                      <h2>Kontakt</h2>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6">
+                        <div class="contact-info-block">
+                          <div class="ci-icon">
+                            <i class="linecons linecons-mail"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h4>Email</h4>
+                            <p>michal.szczygiel7@proton.me</p>
+                          </div>
+                        </div>
+                        
+                        <div class="contact-info-block">
+                          <div class="ci-icon">
+                            <i class="linecons linecons-phone"></i>
+                          </div>
+                          <div class="ci-text">
+                            <h4>Telefon</h4>
+                            <p>+48 664 447 404</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="col-xs-12 col-sm-6">
+                        <div class="contact-buttons">
+                          <h4>Skontaktuj się ze mną</h4>
+                          <div class="button-group">
+                            <a href="mailto:michal.szczygiel7@proton.me" class="btn btn-primary" style="margin-bottom: 15px; width: 100%;"><i class="fas fa-envelope" style="margin-right: 8px;"></i> Wyślij Email</a>
+                            <a href="tel:+48664447404" class="btn btn-secondary" style="margin-bottom: 15px; width: 100%;"><i class="fas fa-phone" style="margin-right: 8px;"></i> Zadzwoń</a>
+                          </div>
+                          <p style="margin-top: 20px; color: #bbbbbb;">Zapraszam do kontaktu w sprawie współpracy lub konsultacji. Odpowiadam najszybciej jak to możliwe.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="p-40"></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="site-footer clearfix">
+          <div class="footer-social">
+            <ul class="footer-social-links">
+              <li>
+                <a href="https://www.linkedin.com/in/micha%C5%82-szczygie%C5%82-82aaaa244/" target="_blank">LinkedIn</a>
+              </li>
+              
+              <li>
+                <a href="mailto:michal.szczygiel7@proton.me" target="_blank">Email</a>
+              </li>
+            </ul>
+          </div>
+              
+          <div class="footer-copyrights">
+            <p>2025 Wszelkie prawa zastrzeżone. Michał Szczygieł</p>
+          </div>
+        </footer>
+        <!-- /Footer -->
+        
+      </div>
+    </div>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      // Smooth scrolling for navigation links
+      $(document).ready(function() {
+        // Add animation class to sections for fade-in effect
+        $('#about, #experience, #projects, #contact').addClass('animated-section');
+        
+        // Smooth scroll navigation
+        $('a[href^="#"]').on('click', function(event) {
+          event.preventDefault();
+          
+          $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+          }, 800);
+        });
+        
+        // Highlight active menu item on scroll
+        $(window).scroll(function() {
+          var scrollDistance = $(window).scrollTop();
+          
+          // Activate sections as they come into view
+          $('.animated-section').each(function(i) {
+            if ($(this).offset().top < (scrollDistance + 400)) {
+              $(this).addClass('active');
+              
+              // Highlight nav item
+              $('.site-main-menu li.active').removeClass('active');
+              $('.site-main-menu li').eq(i).addClass('active');
+            }
+          });
+        }).scroll();
+      });
+    </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"68acbcab0f024cbf","version":"2021.8.1","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":10}'></script>
+</body>
+</html>
